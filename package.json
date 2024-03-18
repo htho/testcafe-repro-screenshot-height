@@ -1,0 +1,21 @@
+{
+  "name": "testcafe-repro-screenshot-height",
+  "version": "1.0.0",
+  "description": "",
+  "main": "screenshot.tc.ts",
+  "scripts": {
+    "test": "testcafe chrome,chrome:headless,firefox,firefox:headless screenshot.tc.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/htho/testcafe-repro-screenshot-height.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "homepage": "https://github.com/htho/testcafe-repro-screenshot-height#readme",
+  "dependencies": {
+    "@types/pngjs": "^6.0.4",
+    "pngjs": "^7.0.0",
+    "testcafe": "^3.5.0"
+  }
+}
